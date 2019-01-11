@@ -44,7 +44,7 @@ def get_average_age_for_season(data, season)
   end
   contestants_total = data[season].size
   
-  ages_total/contestants_total.round 
+  ages_total/contestants_total.ceil 
 
 end
 
