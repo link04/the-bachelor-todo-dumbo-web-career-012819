@@ -45,7 +45,7 @@ def get_average_age_for_season(data, season)
   contestants_total = data[season].size
   ooka = ages_total/contestants_total
   ok = (ages_total/contestants_total).ceil
-
+binding.pry
 end
 
 
