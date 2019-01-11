@@ -43,9 +43,7 @@ def get_average_age_for_season(data, season)
     ages_total += contestants["age"].to_i
   end
   contestants_total = data[season].size
-  ooka = (ages_total.to_f / contestants_total.to_f).round
-
-binding.pry
+  (ages_total.to_f / contestants_total.to_f).round
 end
 
 
